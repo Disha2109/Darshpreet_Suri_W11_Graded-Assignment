@@ -1,0 +1,6 @@
+app:
+build:
+context: .
+dockerfile: ./Dockerfile
+ports:
+- 5000:80
